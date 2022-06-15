@@ -1,0 +1,51 @@
+body {
+    background-color: #87A0B2;
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #684A52;
+}
+
+h1:after {
+	content: "HANNAH ZHOU";
+	position: absolute; left: 10px; top: 18px;
+	color: #857885;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #553D36;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background-color: #857885; 
+    color: black; 
+    border: 2px solid #684A52;
+}
+
+button:hover {
+    background-color: #684A52;
+    color: #857885;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+   
+    gap: 30px;
+}
+
+.flex2 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
